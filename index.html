@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8"/>
 	<title>ThePolyFit</title>
 	<link rel="stylesheet" href="./style.css">
 </head>
-<body>
+<body class="main">
 	<div class="title part"> the poly fit
 	</div>
 	<div class="draw part">
 		<canvas id="plot"> </canvas>
 	</div>
 	<div class="controls part">
+		<input type="number" name="x_len" id="x_len">
+		<input type="number" name="y_len" id="y_len">
+		<input type="button" value="Update" id="updateAxisButton">
 	</div>
 </body>
+	<script type="text/javascript" src="./main.js"></script>
 </html>
