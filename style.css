@@ -1,0 +1,23 @@
+* { 
+	margin:1px; 
+	padding:0; 
+	box-sizing:border-box; 
+}
+.title{
+	width: 100vw;
+	height: 50px;
+}
+.draw{
+	width: 100vw;
+	height: calc(100vh - 50px - 110px); /*60vh*/
+}
+.controls{
+	width: 100vw;
+	height: 110px;
+}
+.part{
+	border: 1px solid gray;
+	float: left;
+	display: table;
+	/*position: fixed;*/
+}
